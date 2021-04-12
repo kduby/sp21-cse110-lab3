@@ -1,0 +1,1 @@
+Here are my journal entries: https://kduby.github.io/Lab2/
