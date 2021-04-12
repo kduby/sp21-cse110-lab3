@@ -1,7 +1,134 @@
 <!DOCTYPE html>
 <html lang=”en”>
-    <head> hello
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Journal</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
     </head>
     <body>
+        <header>
+            <div>Kevin's Journal</div>
+            <nav>
+                <ul>
+                    <li><a href="#entry1">First Entry</a></li>
+                    <li><a href="#entry2">Second Entry</a></li>
+                    <li><a href="#entry3">Third Entry</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <img
+                src="https://i.pinimg.com/originals/3a/00/09/3a000945a5eaf6c28448a1df70cb88d1.jpg"
+                alt="basketball"
+                width="250"
+            />
+            <h1>Welcome to my journal entries! </h1>
+
+            <h2 id="entry1">Wednesday, April 7</h2>
+            <h3>click below for to see Journal entry</h3>
+            <details>
+                <summary>
+                Typical school day    
+                </summary>
+                <p>
+                    Today is a hardworking day. Full of classes and assignment, I need to make sure that I do not get distracted.
+                    <ul>
+                        <li>Assignments I worked on</li>
+                            <ul>
+                                <li>COGS 10 Discussion</li>
+                                <li>BILD 3 Work</li>
+                                <li>CSE 101 Homework</li>
+                                <li>CSE 110 Lab</li>
+                                <li>Review Notes</li>
+                            </ul>
+                    </ul>
+                </p>
+                <hr>
+                <p>
+                   
+                    Today I've been listening to this Korean song called <span>Window</span> non-stop.
+                </p> 
+                <figure>
+                    <figcaption>Listen to Window:</figcaption>
+                    <audio
+                        controls
+                        src="[Offical Audio] 알레프 ALEPH 창문.mp3">
+                        Your browser does not support the audio element.
+                        <code></code>
+    
+                    </audio>
+                </figure>
+            </details>
+      
+
+            <h2 id="entry2">Thursday, April 8</h2>
+            <h3>click below for to see Journal entry</h3>
+            <details>
+                <summary>
+                Vaccine time :o    
+                </summary>
+                <p>
+                    Today, I took the <i class="latin"> Moderna</i> vaccine. Honestly, I was pretty anxious
+                    about it the whole day. I took precautions before/after taking the vaccine.
+                    <ol>
+                        <li>Drank lots of water.</li>
+                        <li>Slowly move arm around to prevent too much soreness.</li>
+                        <li>Did not engage in normal exercise activities.</li>
+                        <li>Slept early to make sure my body was in best shape.</li>
+                    </ol>
+                </p>
+            </details>
+
+            <h2 id="entry3">Friday, April 9</h2>
+            <h3>click below for to see Journal entry</h3>
+            <details>
+                <summary>
+                Friday, time to <em>chill</em>...  
+                </summary>
+                <section>  
+                    <p>
+                        It is important to <strong>rewind after a hardworking week</strong>. 
+                    </p>
+                </section>
+                I've been really getting into <b>chess</b>. <br>
+                <video controls with="250">
+                    <source src="yt1s.com - Learn the French Defense  10Minute Chess Openings.mp4"
+                            type="video/mp4">
+                    Sorry, your browser does not support embedded videos.
+                </video>
+            </details>
+            
+        </main>
+
+        <section> 
+               <form action="/form-page" method="post">
+            <ul>
+                <li>
+                  <label for="name">Date:</label>
+                  <input type="text" id="date" name="date">
+                </li>
+                <li>
+                  <label for="title">Title:</label>
+                  <input type="text" id="title" name="title">
+                </li>
+                <li>
+                  <label for="msg">Message:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">
+                        Submit
+                    </button>
+                </li>
+               </ul>
+        </form>
+        </section>
+     
     </body>
+   
 </html>
+
