@@ -1,4 +1,4 @@
 Mood:
-Today:
+Today (Issue):
 Need collaboration?:
 Task Goals:
