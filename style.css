@@ -1,15 +1,67 @@
+/**
+ * This is the CSS file for Kevin Wong's Journal Website.
+ */
+ @media only screen and (max-width: 1250px) {
+    h1 {
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width: 100px) {
+    h1 {
+        font-size: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+html {
+    font-family: 'Orelega One', cursive; 
+}
+div.static {
+    position: static;
+}
+h1.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px skyblue;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+summary, h2, h3 {
+    text-align: center;
+}
+/**Summary interactions **/
+summary:hover {
+    color:skyblue;
+}
+summary:active {
+    background:rgb(0, 58, 105);
+}
+h3 {
+    text-decoration: underline rgb(0, 0, 0);
+    font-size:10px;
+}
 p,
 ul {
     border: 2px solid rebeccaapurple;
-    padding: .5ex; /*relative unit*/
+    padding: .5ex; 
 }
+
+
 
 .block,
 li {
     border: 1px solid rgb(141, 141, 240);
     border-radius: 10px;
-    padding: .5em; /*relative unit*/
-
+    padding: .5em; 
 }
 
 ul {
@@ -21,19 +73,18 @@ ul {
     display: block;
 }
 .center {
-    margin: auto; /* auto margin*/
+    margin: auto; 
     background: lime;
     height: 10%; 
     width: 66%;
 }
 .outside {
-    margin: 3rem 0 0 -3rem; /* short margin, relative unit */
+    margin: 3rem 0 0 -3rem; 
     background: cyan;
     width: 66%;
 }
 p {
-    /* long margin */
-    margin-top: 100px; /*absolute unit */
+    margin-top: 100px; 
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
@@ -45,7 +96,9 @@ body {
     padding-right: 1cm;
 }
 header {
-    padding: 1cm 25% 1cm 25%;
+    padding: 1cm 10% 1cm 10%;
+    margin-right: auto;
+    margin-left: autol
 }
 .box {
     border-width: 1px;
