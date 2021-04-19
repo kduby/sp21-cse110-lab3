@@ -117,9 +117,10 @@ header {
     border-color: black;
     border-radius: 10px;
 }
-/* descendant combinator */
-/* child combinator */
-
+/* attribute selector */
+[class^="box"] {
+    font-size:25px;
+}
 /* adjacent sibiling combinator */
 p+span {
     font-weight: italic;
