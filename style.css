@@ -1,0 +1,55 @@
+p,
+ul {
+    border: 2px solid rebeccaapurple;
+    padding: .5ex; /*relative unit*/
+}
+
+.block,
+li {
+    border: 1px solid rgb(141, 141, 240);
+    border-radius: 10px;
+    padding: .5em; /*relative unit*/
+
+}
+
+ul {
+    display: flex;
+    list-style:none;
+}
+
+.block {
+    display: block;
+}
+.center {
+    margin: auto; /* auto margin*/
+    background: lime;
+    height: 10%; 
+    width: 66%;
+}
+.outside {
+    margin: 3rem 0 0 -3rem; /* short margin, relative unit */
+    background: cyan;
+    width: 66%;
+}
+p {
+    /* long margin */
+    margin-top: 100px; /*absolute unit */
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+body {
+    padding-top: 5px;
+    padding-bottom: 1in;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+header {
+    padding: 1cm 25% 1cm 25%;
+}
+.box {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
