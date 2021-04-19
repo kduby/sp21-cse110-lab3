@@ -15,6 +15,11 @@
         margin-right: auto;
     }
 }
+#Assignments .titleContainer {
+    flex-direction: row wrap;
+    flex-shrink: 3;
+    flex-grow: 4;
+}
 html {
     font-family: 'Orelega One', cursive; 
 }
@@ -30,7 +35,7 @@ h1.fixed {
 }
 
 img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 
@@ -56,7 +61,9 @@ ul {
 }
 
 
-
+.container {
+    display: flex;
+}
 .block,
 li {
     border: 1px solid rgb(141, 141, 240);
@@ -72,6 +79,10 @@ ul {
 .block {
     display: block;
 }
+.li {
+    flex-direction: row | row-reverse | column | column-reverse;
+}
+
 .center {
     margin: auto; 
     background: lime;
@@ -105,4 +116,21 @@ header {
     border-style: solid;
     border-color: black;
     border-radius: 10px;
+}
+/* descendant combinator */
+/* child combinator */
+
+/* adjacent sibiling combinator */
+p+span {
+    font-weight: italic;
+}
+
+/*general sibiling combinator*/
+h2~h3 {
+    background-color: rgb(221, 191, 255);
+}
+
+/*combining two selectors*/
+.background.background-clean {
+    background-color:teal;
 }
